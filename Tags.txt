@@ -1,0 +1,29 @@
+<!DOCTYPE html> declaration defines that this document is an HTML5 document
+<html> element is the root element of an HTML page
+<head> element contains meta information about the HTML page
+<title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+<body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+<h1> element defines a large heading
+<p> element defines a paragraph
+
+<br> ：  line break  行分隔
+
+<hr>: horizontal break  分割线
+
+<a> : link 			href:  destination   
+<a href="https://www.w3schools.com">This is a link</a>
+
+<img> :  Images		src: source file, alt: alternative text(if no image shown)
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+<pre> :  defines preformatted text
+
+
+
+
+
+HTML is not case sensitive, but always use lowercase 用小写，attribute加quotes引号""
+
+
+web browser的作用是 read HTML documents and display them
+
