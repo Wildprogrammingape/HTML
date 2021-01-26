@@ -1,0 +1,13 @@
+常用来format的element:
+
+<b> - Bold text    加粗
+<i> - Italic text   斜体
+<ins> - Inserted text  下划线 underline
+<mark> - Marked text   高亮
+
+<strong> - Important text  强调，也是粗体
+<em> - Emphasized text  强调，也是斜体
+<small> - Smaller text   小字号
+<del> - Deleted text   叉掉
+<sub> - Subscript text  下标
+<sup> - Superscript text  上标
