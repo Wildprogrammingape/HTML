@@ -1,0 +1,43 @@
+常用颜色：
+
+Tomato
+Orange
+DodgerBlue
+MediumSeaGreen
+Gray
+SlateBlue
+Violet
+LightGray
+
+例子：
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:Orange;">Orange</h1>
+<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+<h1 style="background-color:Gray;">Gray</h1>
+<h1 style="background-color:SlateBlue;">SlateBlue</h1>
+<h1 style="background-color:Violet;">Violet</h1>
+<h1 style="background-color:LightGray;">LightGray</h1>
+
+</body>
+</html>
+
+给边框上色例子：
+
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+颜色的表达方式：
+
+In HTML, colors can be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+
+比如  rgb(255, 99, 71)  和 #ff6347  和 hsl(9, 100%, 64%) 是同一款红色
+
+HEX是十六进制颜色表达：  #RRGGBB，  比如 #000000  就是黑色
+HSL 意思是 hue, saturation, and lightness  比如 hsl(0, 0%, 0%)  就是黑色
