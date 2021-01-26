@@ -1,0 +1,91 @@
+CSS分三种styling方式：
+
+1）inline styling  本行
+在element里面用style写：
+
+<h1 style="color:blue;">A Blue Heading</h1>
+
+2）internal styling  内部全局
+通过<style>，写在<head>里面
+
+例子：全局背景色为绿，标题h1为蓝，段落为红色
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+
+3）external styling 外部css文件
+调用外部style sheet，在<head>里面写链接
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+外部css文件：
+"styles.css":
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+
+实现了和（2） internal styling同样的效果
+
+
+
+三个基本property:  color  font-family  font-size
+
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+
+边框 CSS border
+
+p {
+  border: 2px solid powderblue;
+}
+
+内边框填充 css padding：
+
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+外边框边距  CSS margin
+
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+
