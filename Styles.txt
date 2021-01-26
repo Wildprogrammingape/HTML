@@ -1,0 +1,20 @@
+常用的css style property:
+
+style :  styling HTML elements
+<tagname style="property:value;">
+
+background-color :  background color
+<body style="background-color:powderblue;">
+
+color:   text colors
+<h1 style="color:blue;">This is a heading</h1>
+
+font-family ：字体类型
+<h1 style="font-family:verdana;">This is a heading</h1>
+
+font-size ：字体大小
+<h1 style="font-size:80px;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+text-align: 对齐方式
+<h1 style="text-align:center;">Centered Heading</h1>
