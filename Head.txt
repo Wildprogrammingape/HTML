@@ -1,0 +1,38 @@
+在HTML<head>元素为下列元素的容器，包括： <title>，<style>， <meta>，<link>，<script>，和<base>
+
+<head>元素是元数据（关于数据的数据）的容器，放置在<html>标记和<body>标签。
+
+
+<meta> element 用于指定文本使用的字符，页面描述，作者等等，不显示在页面上，但由浏览器加载运行
+
+例子：
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">   文本使用的字符
+  <meta name="description" content="Free Web tutorials">  页面描述
+  <meta name="keywords" content="HTML, CSS, JavaScript">  关键词
+  <meta name="author" content="John Doe">  作者
+</head>
+<body>
+
+<p>All meta information goes inside the head section.</p>
+
+</body>
+</html>
+
+
+也可以用于设置网页可见区域：
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+该width=device-width部分将页面的宽度设置为跟随设备的屏幕宽度（视设备而定）。
+
+该initial-scale=1.0部分设置浏览器首次加载页面时的初始缩放级别。
+
+
+
+base  element用于指定标页面中所有相对URL
+
+<base href="https://www.w3schools.com/" target="_blank">
