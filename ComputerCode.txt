@@ -1,0 +1,21 @@
+The <kbd> element defines keyboard input
+<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+
+The <samp> element defines sample output from a computer program
+<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+
+The <code> element defines a piece of computer code
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+
+The <var> element defines a variable in programming or in a mathematical expression
+<var>b</var>
+
+
+The <pre> element defines preformatted text
