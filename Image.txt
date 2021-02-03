@@ -1,0 +1,35 @@
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes or the CSS width and height properties to define the size of the image
+Use the CSS float property to let the image float to the left or to the right
+
+例子
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+
+
+Map 图中图：
+
+例子
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+</map>
+
+背景图：
+
+使用 HTML attribute "style"， 和 CSS property "background-image"
+
+例子
+<div style="background-image: url('img_girl.jpg');">
+
+Picture element 根据不同设备调整图片：
+
+<picture>
+  <source srcset="img_avatar.png">
+  <source srcset="img_girl.jpg">
+  <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture>
+
+
