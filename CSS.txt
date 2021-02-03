@@ -89,3 +89,11 @@ p {
   margin: 50px;
 }
 
+
+
+
+È¥³ý styleÀý×Ó
+<a href="html_images.asp" style="text-decoration:none">HTML Images</a>
+
+È¥³ý±ß¿ò
+style="border:none
