@@ -1,0 +1,8 @@
+针对不同的屏幕尺寸和视口进行调整：
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+如果CSSwidth属性设置为100％，则图像将响应并放大和缩小：
+<img src="img_girl.jpg" style="width:100%;">
+
+如果将该max-width属性设置为100％，则图像将按比例缩小，但绝不会放大到大于其原始大小：
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
