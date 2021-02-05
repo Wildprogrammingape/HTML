@@ -1,0 +1,28 @@
+Emoji不是图片，而是 UTF-8(Unicode)中的字符 characters
+
+UTF-8涵盖了世界上几乎所有的字符和符号
+
+例子
+
+字母与Unicode的对应：
+
+<p>I will display A B C</p>
+<p>I will display &#65; &#66; &#67;</p>
+
+
+
+显示表情Emoji:
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h1>My First Emoji</h1>
+
+<p>&#128512;</p>
+
+</body>
+</html>
