@@ -1,0 +1,69 @@
+Input element³£ÓÃµÄtype:
+
+
+<input type="text"> defines a single-line text input field:
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+
+
+
+
+
+<input type="password"> defines a password field:
+
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
+
+
+
+
+<input type="submit"> defines a button for submitting form data to a form-handler:
+<input type="submit" value="Submit">
+
+
+
+
+<input type="reset"> defines a reset button that will reset all form values to their default values:
+<input type="reset">
+
+
+
+
+<input type="radio"> defines a radio button:
+<input type="radio" id="male" name="gender" value="male">
+
+
+<input type="checkbox"> defines a checkbox:
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+
+
+<input type="button"> defines a button:
+<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+
+
+<input type="color"> is used for input fields that should contain a color:
+
+<form>
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor">
+</form>
+
+
+The <input type="date"> is used for input fields that should contain a date:
+
+<form>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
+
+
