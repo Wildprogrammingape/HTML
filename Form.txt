@@ -1,0 +1,57 @@
+form element 用于用户输入:
+
+例子
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+
+
+<label>和<input>搭配使用，label作为说明，input作为用户输入
+其中lable的for等同于input中的id，用于data binding
+
+
+
+
+Input的常用方式：
+
+Type			Description
+
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button
+
+例子：
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" value="John"><br><br>   输出文本框
+  <input type="submit" value="Submit">   提交按钮
+</form>
+
+
+
+
+select下拉菜单，option定义选项内容, size定义默认可见的选项数量：
+
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+
+
+textarea 用于多行输入：
+
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
