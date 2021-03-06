@@ -1,6 +1,6 @@
 Use the <a> element to define a link
 Use the href attribute to define the link address
-Use the target attribute to define where to open the linked document
+Use the “target” attribute to define where to open the linked document
 Use the <img> element (inside <a>) to use an image as a link
 Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
 
@@ -56,3 +56,34 @@ An active link is underlined and red
 
 <h2 id="C4">Chapter 4</h2>
 <p>This chapter explains ba bla bla</p>
+
+
+
+
+
+<link>的使用:
+
+用来定义当前文档和外部文件之间的关系(如链接外部css，链接googlefont)
+
+<link>是空element，只包含 arrtibute
+
+例子：
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+rel 用来表示当前文档和链接的文档的关系，href为hypertext reference 链接地址
+
+
+
+
+
+
+
+
+
+
+
+
+
