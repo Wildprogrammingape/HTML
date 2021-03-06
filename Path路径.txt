@@ -1,0 +1,94 @@
+
+不同路径有不同的表达方式：
+
+<img src =“ picture.jpg”>	                “ picture.jpg”文件与当前页面位于同一文件夹中
+<img src =“ images / picture.jpg”>	“ picture.jpg”文件位于当前文件夹的images文件夹中
+<img src =“ / images / picture.jpg”>	“ picture.jpg”文件位于当前网站根目录的images文件夹中
+<img src =“ ../ picture.jpg”>	“ picture.jpg”文件位于当前文件夹上一层的文件夹中
+
+绝对文件路径 （完整文件路径）
+<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+
+相对文件路径
+
+位于当前网站根目录中 images 文件夹里的一个文件
+<img src="/images/picture.jpg" alt="Mountain">
+
+当前文件夹中 images 文件夹里的一个文件（下一层）：
+<img src="images/picture.jpg" alt="Mountain">
+
+当前文件夹的上一级文件夹中 images 文件夹里的一个文件(上一层)：
+<img src="../images/picture.jpg" alt="Mountain">
+
+当前文件夹下的文件 (同一层):
+<img src="picture.jpg" alt="Mountain">
+
+总结： 以本HTML文件所在目录开始计算
+
+
+
+/ means the root of the current drive;   代表网站根目录，就是服务器www目录 (目前没用到)
+
+./ means the current directory; 和直接写文件名一样，处于同一个文件夹下
+
+../ means the parent of the current directory. 上层文件夹
+
+
+
+
+
+
+
+
+
+
+
+
+
+具体的例子：
+
+下面建立两个HTML文档info.html和index.html，用作示例，要求都是在info.html加入index.html超链接。
+
+ 
+
+eg1：相对路径的简单应用
+
+假设：info.html路径是：c:/Inetpub/wwwroot/sites/blabla/info.html
+
+　　　index.html路径是：c:/Inetpub/wwwroot/sites/blabla/index.html
+
+写法：<a href = "index.html">这是超连接</a>
+
+ 
+
+eg2：如何表示上级目录
+
+../表示源文件所在目录的上一级目录，http://www.cnblogs.com/表示源文件所在目录的上上级目录，以此类推。
+
+假设：info.html路径是：c:/Inetpub/wwwroot/sites/blabla/info.html
+
+　　　index.html路径是：c:/Inetpub/wwwroot/sites/index.html
+
+写法：<a href = "../index.html">这是超连接</a>
+
+ 
+
+eg3：如何表示上上级目录
+
+假设：info.html路径是：c:/Inetpub/wwwroot/sites/blabla/info.html
+
+　　　index.html路径是：c:/Inetpub/wwwroot/sites/wowstory/index.html
+
+写法：<a href = "../wowstory/index.html">index.html</a>
+
+ 
+
+eg3：如何表示下级目录
+
+引用下级目录的文件，直接写下级目录文件的路径即可。
+
+假设：info.html路径是：c:/Inetpub/wwwroot/sites/blabla/info.html
+
+　　　index.html路径是：c:/Inetpub/wwwroot/sites/blabla/html/index.html
+
+写法：<a href = "html/index.html">这是超连接</a>
