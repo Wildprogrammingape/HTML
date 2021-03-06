@@ -1,0 +1,6 @@
+<header> element是一个容器，用来放 <h1>标题，icon图标等等
+
+<header>
+  <h1>Main page heading here</h1>
+  <p>Posted by John Doe</p>
+</header>
