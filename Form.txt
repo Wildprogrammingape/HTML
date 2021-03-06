@@ -1,4 +1,6 @@
-form element 用于用户输入:
+<form>是一个容器，用来放 <input>用户输入, <button>按钮, <label>说明 
+
+只有一个 "action" attribute
 
 例子
 
